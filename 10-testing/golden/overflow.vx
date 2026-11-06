@@ -1,0 +1,9 @@
+fn fact(n: Int) -> Int {
+    if n <= 1 { 1 } else { n * fact(n - 1) }
+}
+
+fn main() {
+    print(fact(10));
+    print(fact(20));
+    print(fact(21));
+}

@@ -1,0 +1,9 @@
+fn gcd(a: Int, b: Int) -> Int {
+    if b == 0 { a } else { gcd(b, a % b) }
+}
+
+fn main() {
+    print(gcd(1071, 462));
+    print(gcd(17, 5));
+    print(gcd(0, 9));
+}
